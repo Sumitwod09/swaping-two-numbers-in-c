@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    
+    int a,b;
+    
+    printf("Enter the value of A : ");
+    scanf("%d",&a); //take the input for a 
+    printf("Enter the value of B : ");
+    scanf("%d",&b); //take the input for b
+    
+    b=a+b; // value of b is 15
+    a=b-a; // value of a is 5
+    b=b-a; // value of b is 10
+    
+    printf("The value of a is : %d\n",a); //print the value of a 
+    printf("The value of b is : %d",b); //print the value of b
+    
+    return 0;
+}
